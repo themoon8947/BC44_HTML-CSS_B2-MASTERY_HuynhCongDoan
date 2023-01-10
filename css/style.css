@@ -197,136 +197,71 @@ body {
     font-size: 18px;
 }
 
-/* .posts {
-    margin-top: 80px;
+
+.post {
     background-color: #F6F6F6;
 }
 
-.posts__main {
+.post__main {
     width: 80%;
     margin: auto;
+
 }
 
-.posts__latest {
-    width: 50%;
+/* post__latest */
+.post__latest {
+    width: 48%;
     float: left;
-}
-
-.posts__latest h1 {
-    margin-bottom: 60px;
-    margin-top: 100px;
+    margin-right: 20px;
 
 }
 
-.posts__latest__ {
+.post__latest h1 {
+    margin-bottom: 40px;
+    margin-top: 80px;
+}
 
+.post__latest__nav {
+    height: 185px;
     background-color: #FFFFFF;
+    border-bottom: 1px solid #EEEEEE;
 }
 
-.posts__latest__title {
-    margin-top: 20px;
-    height: 150px;
-    width: 95%;
-    border-radius: 5px;
-}
-
-.posts__latest__img {
+.post__latest__img {
     width: 35%;
     float: left;
-
 }
 
-.posts__latest__img img {
-    width: 160px;
-    height: auto;
-    background-size: cover;
-    margin: 20px 20px;
+.post__latest__img img {
+    width: 200px;
     border-radius: 5px;
-}
-
-.posts__latest__item h2 {
-    padding-top: 15px;
-    padding-bottom: 5px;
-}
-
-.posts__latest__item span {
-
-    color: #939393;
-}
-
-.posts__latest__item p {
-    padding-top: 20px;
-    color: #585858;
-}
-
-.btn__posts {
-    margin-top: 30px;
-    margin-bottom: 80px;
-    width: 100px;
-    height: 40px;
-    text-align: center;
-    color: #020202;
-    border: none;
-    background-color: #FDC800;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-left: 305px;
-}
-
-/* event */
-/* 
-.posts__event {
-    width: 50%;
-    float: left;
-
-}
-
-.posts__event h1 {
-    margin-top: 100px;
-    margin-left: 40px;
-    margin-bottom: 60px;
-}
-
-.posts__event__title {
-    background-color: #FFFFFF;
-    margin-top: 20px;
-    height: 200px;
-    margin-left: 40px;
-
-}
-
-.posts__event__calendar {
-    width: 15%;
-    float: left;
-    border-radius: 5px;
-    text-align: center;
     margin: 20px;
 }
 
-.posts__event__calendar__day {
-    width: 80px;
-    background-color: #FDC800;
+.post__latest__title {
+    width: 65%;
+    float: left;
+    padding: 20px 50px 20px 30px;
+}
+
+.post__latest__title h2 {
+    color: #1D1B2D;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.post__latest__title span {
+    color: #939393;
+
 
 }
 
-.posts__event__calendar__day h1 {
-    text-align: center;
+.post__latest__title p {
+    padding-top: 14px;
 }
 
-.posts__event__calendar__year h3 {
-    background-color: #002146;
-    color: #FFFFFF;
-    height: 30px;
-    width: 80px;
-    padding-top: 5px;
-}
-
-.posts__event__title__item {}
-
-
-.btn__events {
-    margin-top: 30px;
-    margin-bottom: 80px;
+.post__latest__btn {
     width: 100px;
     height: 40px;
     text-align: center;
@@ -335,8 +270,93 @@ body {
     background-color: #FDC800;
     border-radius: 5px;
     cursor: pointer;
-    margin-left: 509px;
-} */
+    margin: 30px 0 80px 485px;
+
+}
+
+/* post__events */
+.post__events {
+    width: 48%;
+    float: left;
+    margin-left: 28px;
+}
+
+.post__events__nav {
+    height: 185px;
+    padding: 20px;
+    background-color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+.post__title {
+    margin-bottom: 40px;
+    margin-top: 80px;
+}
+
+.post__events__calendar {
+    width: 18%;
+    float: left;
+    text-align: center;
+    background-color: #FDC800;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.post__events__calendar h1 {
+    padding-top: 15px;
+}
+
+.post__events__calendar p {
+    background-color: #002146;
+    color: #FFFFFF;
+    margin-top: 20px;
+    height: 35px;
+    padding-top: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+.post__events__title {
+    margin-left: 120px;
+}
+
+.post__events__title h2 {
+    color: #1D1B2D;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 15px;
+
+}
+
+.post__events__title p {
+    color: #939393;
+    line-height: 23px;
+    margin-bottom: 10px;
+}
+
+.posts__event__title__hour {
+    border-right: 2px solid #BDBDBD;
+    padding-right: 15px;
+}
+
+.posts__event__title__country {
+    padding-left: 15px;
+}
+
+.post__post__btn {
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    color: #020202;
+    border: none;
+    background-color: #FDC800;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px 0 80px 485px;
+}
+
+/* contact */
 
 .contact {
     background-color: #002146;
